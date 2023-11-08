@@ -1,0 +1,9 @@
+{
+  "signal": "SIGHUP",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ignore": "dist",
+  "ext": "js",
+  "exec": "webpack && node backend"
+}
