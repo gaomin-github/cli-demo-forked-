@@ -48,3 +48,12 @@
 https://stackoverflow.com/questions/71463698/why-we-need-nodenext-typescript-compiler-option-when-we-have-esnext/71473145#71473145
 
 https://github.com/vercel/next.js/issues/46078 -->
+
+# 1.9）tsconfig.json配置关于 module和moduleResolution
+<!-- module: 'esnext',
+moduleResulution: 'node', -->
+
+# 1.10）生成文件没有.d.ts
+<!-- 需要在tsconfig中添加    "declaration": true, -->
+# 1.11）生成文件没有.js.map
+<!-- 需要在tsconfig中添加    "sourceMap": true, -->

@@ -1,0 +1,37 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "helper and utils set",
+  "keywords": [
+    "tools"
+  ],
+  "author": "g-github <374204501@qq.com>",
+  "homepage": "http://index.ts",
+  "license": "MIT",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaomin-github/cli-demo-forked-.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
+  },
+  "dependencies": {
+    "immer": "8.0.1"
+  },
+  "private": true
+}
