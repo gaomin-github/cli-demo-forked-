@@ -1,8 +1,9 @@
 {
-  "name": "cli-demo",
+  "name": "cli-demo-gm",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "private": true,
   "scripts": {
     "start": "nodemon",
     "build-and-expose": "webpack && node backend localhost 1234"
