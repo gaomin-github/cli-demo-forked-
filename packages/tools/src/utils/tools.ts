@@ -5,7 +5,7 @@ const reportException = (e: unknown) => {
     return;
   }
   const { code = 0, msg = "" } = e as { code: number; msg: string };
-  console.log("reportException", code, msg);
+  console.log("reportException code", code, "msg", msg);
 };
 
 const printLog = (log: string) => {

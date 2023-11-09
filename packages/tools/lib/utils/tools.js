@@ -4,7 +4,7 @@ const reportException = (e) => {
         return;
     }
     const { code = 0, msg = "" } = e;
-    console.log("reportException", code, msg);
+    console.log("reportException code", code, "msg", msg);
 };
 const printLog = (log) => {
     console.log(`printLog：${log}`);
