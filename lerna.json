@@ -1,14 +1,5 @@
 {
   "packages": ["packages/*"],
   "version": "independent",
-  "npmClient": "cnpm",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.com"
-  },
-  "command": {
-    "publish": {
-      "registry": "https://registry.npmjs.com"
-    }
-  }
+  "npmClient": "cnpm"
 }
