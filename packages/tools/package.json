@@ -32,5 +32,6 @@
   },
   "dependencies": {
     "immer": "8.0.1"
-  }
+  },
+  "gitHead": "0e8e11241052aa3c1f1f35f47ad377ad352c42e6"
 }
