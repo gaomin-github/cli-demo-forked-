@@ -1,5 +1,5 @@
 {
-  "name": "btns",
+  "name": "@cli-demo-gm/btns",
   "version": "1.0.1-beta.0",
   "description": "> TODO: description",
   "author": "g-github <374204501@qq.com>",
@@ -29,5 +29,6 @@
   },
   "dependencies": {
     "immer": "8.0.1"
-  }
+  },
+  "gitHead": "cf993578e97052a413114cfcfcf2f0c5cc21bf46"
 }
