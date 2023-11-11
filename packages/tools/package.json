@@ -1,6 +1,6 @@
 {
   "name": "@cli-demo-pj/tools",
-  "version": "1.0.4-beta.0",
+  "version": "1.0.3-test-beta.0",
   "description": "helper and utils set",
   "keywords": [
     "tools"
