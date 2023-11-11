@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
+  },
+  "dependencies": {
+    "@cli-demo-pj/btns": "^1.0.6-test-beta.0"
   }
 }

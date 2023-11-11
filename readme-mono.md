@@ -1,3 +1,10 @@
+# 最佳实践：
+安装全局依赖：使用yarn install
+安装依赖到root路径：yarn add -W packageA
+安装依赖到单独package： lerna add xxx --scope package / yarn workspace packageB add xxxx
+发布npm:  直接运行npm publish
+运行script：yarn run xxx
+
 # demo测试流程
 1） tools btns modals无引用关系，更新tools只有tools版本更新了
 2) 为btns添加tools的引用，发布btns

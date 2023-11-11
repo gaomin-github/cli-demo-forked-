@@ -1,6 +1,11 @@
-# 2 eslint配置
+# 3 eslint配置
 
 
+# 2 tsx 提示cannot be used as a JSX component
+可能的原因：react和ts版本不适配
+参考：
+https://blog.csdn.net/weixin_45954775/article/details/127668965
+https://blog.csdn.net/weixin_43544179/article/details/126938006
 
 # 1 ts
 # 1.1）安装
