@@ -1,11 +1,3 @@
-# `btns`
 
-> TODO: description
-
-## Usage
-
-```
-const btns = require('btns');
-
-// TODO: DEMONSTRATE API
+# btns增加readme 测试
 ```

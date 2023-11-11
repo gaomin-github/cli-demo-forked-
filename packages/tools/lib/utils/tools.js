@@ -4,9 +4,13 @@ const reportException = (e) => {
         return;
     }
     const { code = 0, msg = "" } = e;
-    console.log("reportException", code, msg);
+    console.log("reportException code", code, "msg", msg);
 };
-const printLog = (log) => {
+const printLog = (log, isError = false) => {
+    if (isError) {
+        console.error(`printLog：${log}`);
+        return;
+    }
     console.log(`printLog：${log}`);
 };
 const tools = {
