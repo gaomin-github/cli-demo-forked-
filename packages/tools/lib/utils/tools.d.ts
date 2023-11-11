@@ -1,5 +1,3 @@
-declare const tools: {
-    reportException: (e: unknown) => void;
-    printLog: (log: string, isError?: boolean) => void;
-};
-export default tools;
+export declare const reportException: (e: unknown) => void;
+export declare const printLog: (log: string, isError?: boolean) => void;
+export declare const requestApi: () => void;
