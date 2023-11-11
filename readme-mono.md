@@ -1,3 +1,12 @@
+# demo测试流程
+1） tools btns modals无引用关系，更新tools只有tools版本更新了
+2) 为btns添加tools的引用，发布btns
+3) tools修改；version时 btns和tools版本都会更新
+
+# 更新版本指令
+yarn lerna version
+yarn lerna from-package
+
 # lerna
 1）子包发布提示 402 ：设置为public
 https://github.com/lerna/lerna/issues/1821

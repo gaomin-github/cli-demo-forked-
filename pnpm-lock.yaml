@@ -23,8 +23,8 @@ specifiers:
   lerna: ^3.22.1
   lodash-es: 4.17.11
   nodemon: 1.18.4
-  react: '>=16.13.0'
-  react-dom: '>=16.13.0'
+  react: ^16.13.0
+  react-dom: ^16.13.0
   ts-loader: 8.0.0
   tsconfig-paths-webpack-plugin: 3.5.2
   typescript: 4.5.4
@@ -36,21 +36,21 @@ dependencies:
   '@types/react-dom': registry.npmjs.org/@types/react-dom/16.9.5
   lerna: registry.npmjs.org/lerna/3.22.1
   lodash-es: registry.npmjs.org/lodash-es/4.17.11
-  react: registry.npmjs.org/react/18.2.0
-  react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+  react: registry.npmjs.org/react/16.14.0
+  react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
 
 devDependencies:
   '@babel/core': registry.npmjs.org/@babel/core/7.5.5
   '@babel/preset-react': registry.npmjs.org/@babel/preset-react/7.0.0_@babel+core@7.5.5
-  '@storybook/addon-actions': registry.npmjs.org/@storybook/addon-actions/6.5.8_react-dom@18.2.0+react@18.2.0
-  '@storybook/addon-essentials': registry.npmjs.org/@storybook/addon-essentials/6.5.8_85a9c60acaa4c0f3c91a079205a714b5
-  '@storybook/addon-interactions': registry.npmjs.org/@storybook/addon-interactions/6.5.8_91fc4653a7b69413b734fe7c4da8ec9e
-  '@storybook/addon-links': registry.npmjs.org/@storybook/addon-links/6.5.8_react-dom@18.2.0+react@18.2.0
-  '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
-  '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
-  '@storybook/react': registry.npmjs.org/@storybook/react/6.5.8_789ff8f7cc6be75372f447df75a13a17
+  '@storybook/addon-actions': registry.npmjs.org/@storybook/addon-actions/6.5.8_react-dom@16.14.0+react@16.14.0
+  '@storybook/addon-essentials': registry.npmjs.org/@storybook/addon-essentials/6.5.8_a68091e0c18ba8d1aff8585830e6701e
+  '@storybook/addon-interactions': registry.npmjs.org/@storybook/addon-interactions/6.5.8_28111a6f163ddf9389a96b2be6e1bc67
+  '@storybook/addon-links': registry.npmjs.org/@storybook/addon-links/6.5.8_react-dom@16.14.0+react@16.14.0
+  '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
+  '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
+  '@storybook/react': registry.npmjs.org/@storybook/react/6.5.8_3bb29f7f4bd665e21d36d35db429d9d4
   '@storybook/testing-library': registry.npmjs.org/@storybook/testing-library/0.0.12
-  '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.16_react-dom@18.2.0+react@18.2.0
+  '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.16_react-dom@16.14.0+react@16.14.0
   '@types/react': registry.npmjs.org/@types/react/16.9.43
   babel-loader: registry.npmjs.org/babel-loader/8.0.6_@babel+core@7.5.5+webpack@4.39.1
   clean-webpack-plugin: registry.npmjs.org/clean-webpack-plugin/3.0.0_webpack@4.39.1
@@ -3360,7 +3360,7 @@ packages:
     dev: true
     optional: true
 
-  registry.npmjs.org/@design-systems/utils/2.12.0_1f671652fcfced5544cf721c7b911a2a:
+  registry.npmjs.org/@design-systems/utils/2.12.0_29152bc2e696475afa6418b6f8e53d32:
     resolution: {integrity: sha512-Y/d2Zzr+JJfN6u1gbuBUb1ufBuLMJJRZQk+dRmw8GaTpqKx5uf7cGUYGTwN02dIb3I+Tf+cW8jcGBTRiFxdYFg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@design-systems/utils/-/utils-2.12.0.tgz}
     id: registry.npmjs.org/@design-systems/utils/2.12.0
     name: '@design-systems/utils'
@@ -3374,12 +3374,12 @@ packages:
       '@types/react': registry.npmjs.org/@types/react/16.9.43
       clsx: registry.npmjs.org/clsx/1.1.0
       focus-lock: registry.npmjs.org/focus-lock/0.8.1
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       react-merge-refs: registry.npmjs.org/react-merge-refs/1.1.0
     dev: true
 
-  registry.npmjs.org/@devtools-ds/object-inspector/1.2.1_1f671652fcfced5544cf721c7b911a2a:
+  registry.npmjs.org/@devtools-ds/object-inspector/1.2.1_29152bc2e696475afa6418b6f8e53d32:
     resolution: {integrity: sha512-nrAVVj4c4Iv9958oE4HA7Mk6T+4Mn/4xBRlFDeX4Ps6SMzsqO8bKhw/y6+bOfNyb/TYHmC0/pnPS68GDVZcg5Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@devtools-ds/object-inspector/-/object-inspector-1.2.1.tgz}
     id: registry.npmjs.org/@devtools-ds/object-inspector/1.2.1
     name: '@devtools-ds/object-inspector'
@@ -3389,10 +3389,10 @@ packages:
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.7.2
       '@devtools-ds/object-parser': registry.npmjs.org/@devtools-ds/object-parser/1.2.1
-      '@devtools-ds/themes': registry.npmjs.org/@devtools-ds/themes/1.2.1_1f671652fcfced5544cf721c7b911a2a
-      '@devtools-ds/tree': registry.npmjs.org/@devtools-ds/tree/1.2.1_1f671652fcfced5544cf721c7b911a2a
+      '@devtools-ds/themes': registry.npmjs.org/@devtools-ds/themes/1.2.1_29152bc2e696475afa6418b6f8e53d32
+      '@devtools-ds/tree': registry.npmjs.org/@devtools-ds/tree/1.2.1_29152bc2e696475afa6418b6f8e53d32
       clsx: registry.npmjs.org/clsx/1.1.0
-      react: registry.npmjs.org/react/18.2.0
+      react: registry.npmjs.org/react/16.14.0
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
@@ -3406,7 +3406,7 @@ packages:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.5.5
     dev: true
 
-  registry.npmjs.org/@devtools-ds/themes/1.2.1_1f671652fcfced5544cf721c7b911a2a:
+  registry.npmjs.org/@devtools-ds/themes/1.2.1_29152bc2e696475afa6418b6f8e53d32:
     resolution: {integrity: sha512-4/KFsHnokGxUq8CSCchINcVBb6fQ74HtEfNtMuitGtGg3VCRV0kaVSOsz6wzShzhLEaVLd5coSRQKaZj7yx72w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@devtools-ds/themes/-/themes-1.2.1.tgz}
     id: registry.npmjs.org/@devtools-ds/themes/1.2.1
     name: '@devtools-ds/themes'
@@ -3415,15 +3415,15 @@ packages:
       react: '>= 16.8.6'
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.5.5
-      '@design-systems/utils': registry.npmjs.org/@design-systems/utils/2.12.0_1f671652fcfced5544cf721c7b911a2a
+      '@design-systems/utils': registry.npmjs.org/@design-systems/utils/2.12.0_29152bc2e696475afa6418b6f8e53d32
       clsx: registry.npmjs.org/clsx/1.1.0
-      react: registry.npmjs.org/react/18.2.0
+      react: registry.npmjs.org/react/16.14.0
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
     dev: true
 
-  registry.npmjs.org/@devtools-ds/tree/1.2.1_1f671652fcfced5544cf721c7b911a2a:
+  registry.npmjs.org/@devtools-ds/tree/1.2.1_29152bc2e696475afa6418b6f8e53d32:
     resolution: {integrity: sha512-2ZHG28oWJno0gD+20EoSJO0yffm6JS5r7YzYhGMkrnLGvcCRZuwXSxMmIshSPLIR0cjidiAfGCqsrigHIR4ZQA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@devtools-ds/tree/-/tree-1.2.1.tgz}
     id: registry.npmjs.org/@devtools-ds/tree/1.2.1
     name: '@devtools-ds/tree'
@@ -3432,9 +3432,9 @@ packages:
       react: '>= 16.8.6'
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.7.2
-      '@devtools-ds/themes': registry.npmjs.org/@devtools-ds/themes/1.2.1_1f671652fcfced5544cf721c7b911a2a
+      '@devtools-ds/themes': registry.npmjs.org/@devtools-ds/themes/1.2.1_29152bc2e696475afa6418b6f8e53d32
       clsx: registry.npmjs.org/clsx/1.1.0
-      react: registry.npmjs.org/react/18.2.0
+      react: registry.npmjs.org/react/16.14.0
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
@@ -4495,7 +4495,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmjs.org/@mdx-js/react/1.6.22_react@18.2.0:
+  registry.npmjs.org/@mdx-js/react/1.6.22_react@16.14.0:
     resolution: {integrity: sha512-TDoPum4SHdfPiGSAaRBw7ECyI8VaHpK8GJugbJIJuqyh6kzw9ZLJZW3HGL3NNrJGxcAixUvqROm+YuQOo5eXtg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@mdx-js/react/-/react-1.6.22.tgz}
     id: registry.npmjs.org/@mdx-js/react/1.6.22
     name: '@mdx-js/react'
@@ -4503,7 +4503,7 @@ packages:
     peerDependencies:
       react: ^16.13.1 || ^17.0.0
     dependencies:
-      react: registry.npmjs.org/react/18.2.0
+      react: registry.npmjs.org/react/16.14.0
     dev: true
 
   registry.npmjs.org/@mdx-js/util/1.6.22:
@@ -4748,7 +4748,7 @@ packages:
       webpack: registry.npmjs.org/webpack/5.89.0_webpack-cli@3.3.6
     dev: true
 
-  registry.npmjs.org/@storybook/addon-actions/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-actions/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-9ciR1iWBTzQNBDlq0iQs9+TV7gng+FbQxW5mHNxNvT9SxY1dt02wCPHZeVE/5la61wBXZs/zpEepZA93VzVBDw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-actions/-/addon-actions-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-actions/6.5.8
     name: '@storybook/addon-actions'
@@ -4762,22 +4762,22 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       fast-deep-equal: registry.npmjs.org/fast-deep-equal/3.1.3
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
       polished: registry.npmjs.org/polished/4.2.2
       prop-types: registry.npmjs.org/prop-types/15.8.1
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
-      react-inspector: registry.npmjs.org/react-inspector/5.1.1_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
+      react-inspector: registry.npmjs.org/react-inspector/5.1.1_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       telejson: registry.npmjs.org/telejson/6.0.8
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
@@ -4785,7 +4785,7 @@ packages:
       uuid-browser: registry.npmjs.org/uuid-browser/3.1.0
     dev: true
 
-  registry.npmjs.org/@storybook/addon-backgrounds/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-backgrounds/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-pvlP5ZVVfd2sWzgCqG/f6RJX/h9648znYbzaLQ4Z6whQIFobP3H3/cj9k/RTy3uXg5vC0IWDHSEaCXgin2sW1Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-backgrounds/-/addon-backgrounds-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-backgrounds/6.5.8
     name: '@storybook/addon-backgrounds'
@@ -4799,24 +4799,24 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       memoizerific: registry.npmjs.org/memoizerific/1.11.3
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
       util-deprecate: registry.npmjs.org/util-deprecate/1.0.2
     dev: true
 
-  registry.npmjs.org/@storybook/addon-controls/6.5.8_57bce19158533a280d74c2f88fe935d3:
+  registry.npmjs.org/@storybook/addon-controls/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2:
     resolution: {integrity: sha512-fB6p5DgVHUnJKUzOlT2mtvaSCincnO+vuYLyf++f+l4BlYK1Es9HNl/puaRoMgdW+LoGJjXPTIMcMByeHVIt6Q==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-controls/-/addon-controls-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-controls/6.5.8
     name: '@storybook/addon-controls'
@@ -4830,19 +4830,19 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       lodash: registry.npmjs.org/lodash/4.17.21
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
     transitivePeerDependencies:
       - eslint
@@ -4851,7 +4851,7 @@ packages:
       - vue-template-compiler
     dev: true
 
-  registry.npmjs.org/@storybook/addon-docs/6.5.8_06efa49553163f70f127c88368e1d862:
+  registry.npmjs.org/@storybook/addon-docs/6.5.8_81dc5ff6341f490462a4bc22f551a196:
     resolution: {integrity: sha512-pAvWwh5YCrsW9nHCrd5BpFigvqn92JisX0aEnwAqKC9B1AW1LxhdPn1o9CQCeszQGaq163RA6AzkCejvAqhtUQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-docs/-/addon-docs-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-docs/6.5.8
     name: '@storybook/addon-docs'
@@ -4871,28 +4871,28 @@ packages:
       '@babel/plugin-transform-react-jsx': registry.npmjs.org/@babel/plugin-transform-react-jsx/7.22.15_@babel+core@7.5.5
       '@babel/preset-env': registry.npmjs.org/@babel/preset-env/7.23.3_@babel+core@7.5.5
       '@jest/transform': registry.npmjs.org/@jest/transform/26.6.2
-      '@mdx-js/react': registry.npmjs.org/@mdx-js/react/1.6.22_react@18.2.0
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@mdx-js/react': registry.npmjs.org/@mdx-js/react/1.6.22_react@16.14.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/docs-tools': registry.npmjs.org/@storybook/docs-tools/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/docs-tools': registry.npmjs.org/@storybook/docs-tools/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/mdx1-csf': registry.npmjs.org/@storybook/mdx1-csf/0.0.1_@babel+core@7.5.5
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
       '@storybook/postinstall': registry.npmjs.org/@storybook/postinstall/6.5.8
-      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/source-loader': registry.npmjs.org/@storybook/source-loader/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/source-loader': registry.npmjs.org/@storybook/source-loader/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       babel-loader: registry.npmjs.org/babel-loader/8.0.6_@babel+core@7.5.5+webpack@4.39.1
       core-js: registry.npmjs.org/core-js/3.33.2
       fast-deep-equal: registry.npmjs.org/fast-deep-equal/3.1.3
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       remark-external-links: registry.npmjs.org/remark-external-links/8.0.0
       remark-slug: registry.npmjs.org/remark-slug/6.1.0
@@ -4907,7 +4907,7 @@ packages:
       - webpack
     dev: true
 
-  registry.npmjs.org/@storybook/addon-essentials/6.5.8_85a9c60acaa4c0f3c91a079205a714b5:
+  registry.npmjs.org/@storybook/addon-essentials/6.5.8_a68091e0c18ba8d1aff8585830e6701e:
     resolution: {integrity: sha512-K/Aw/GLugCz5/S3c2tz5lnfC8aN6dSoQQDr8xaMDcBlT9h/xZ1l4jQQnx/mvY/qEvXtexBF41DE6ROWGKSZeSg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-essentials/-/addon-essentials-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-essentials/6.5.8
     name: '@storybook/addon-essentials'
@@ -4968,22 +4968,22 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core/7.5.5
-      '@storybook/addon-actions': registry.npmjs.org/@storybook/addon-actions/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/addon-backgrounds': registry.npmjs.org/@storybook/addon-backgrounds/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/addon-controls': registry.npmjs.org/@storybook/addon-controls/6.5.8_57bce19158533a280d74c2f88fe935d3
-      '@storybook/addon-docs': registry.npmjs.org/@storybook/addon-docs/6.5.8_06efa49553163f70f127c88368e1d862
-      '@storybook/addon-measure': registry.npmjs.org/@storybook/addon-measure/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/addon-outline': registry.npmjs.org/@storybook/addon-outline/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/addon-toolbars': registry.npmjs.org/@storybook/addon-toolbars/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/addon-viewport': registry.npmjs.org/@storybook/addon-viewport/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/addon-actions': registry.npmjs.org/@storybook/addon-actions/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/addon-backgrounds': registry.npmjs.org/@storybook/addon-backgrounds/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/addon-controls': registry.npmjs.org/@storybook/addon-controls/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
+      '@storybook/addon-docs': registry.npmjs.org/@storybook/addon-docs/6.5.8_81dc5ff6341f490462a4bc22f551a196
+      '@storybook/addon-measure': registry.npmjs.org/@storybook/addon-measure/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/addon-outline': registry.npmjs.org/@storybook/addon-outline/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/addon-toolbars': registry.npmjs.org/@storybook/addon-toolbars/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/addon-viewport': registry.npmjs.org/@storybook/addon-viewport/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
       core-js: registry.npmjs.org/core-js/3.33.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
       webpack: registry.npmjs.org/webpack/4.39.1
@@ -4995,7 +4995,7 @@ packages:
       - vue-template-compiler
     dev: true
 
-  registry.npmjs.org/@storybook/addon-interactions/6.5.8_91fc4653a7b69413b734fe7c4da8ec9e:
+  registry.npmjs.org/@storybook/addon-interactions/6.5.8_28111a6f163ddf9389a96b2be6e1bc67:
     resolution: {integrity: sha512-eX/L27xmj891A7yM7B0FjTqvT3wkgfmZ7bwOeBs+ICyBT1sEY+TaUFGm3nb0hTsQSevQZoP4Rsi+AMI3/XUxNA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-interactions/6.5.8
     name: '@storybook/addon-interactions'
@@ -5009,22 +5009,22 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@devtools-ds/object-inspector': registry.npmjs.org/@devtools-ds/object-inspector/1.2.1_1f671652fcfced5544cf721c7b911a2a
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@devtools-ds/object-inspector': registry.npmjs.org/@devtools-ds/object-inspector/1.2.1_29152bc2e696475afa6418b6f8e53d32
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/instrumenter': registry.npmjs.org/@storybook/instrumenter/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/instrumenter': registry.npmjs.org/@storybook/instrumenter/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       jest-mock: registry.npmjs.org/jest-mock/27.5.1
       polished: registry.npmjs.org/polished/4.2.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
     transitivePeerDependencies:
       - '@types/react'
@@ -5034,7 +5034,7 @@ packages:
       - vue-template-compiler
     dev: true
 
-  registry.npmjs.org/@storybook/addon-links/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-links/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-UxzEPnT1PLPsuy3tt+o3UJTbI4Kihec+/yzpzzGKreUnCC8EWTsOhtMQAVVit2t4BMl4vNrxKO0mKSc8saT3Gw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-links/-/addon-links-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-links/6.5.8
     name: '@storybook/addon-links'
@@ -5048,23 +5048,23 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/qs': registry.npmjs.org/@types/qs/6.9.10
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       prop-types: registry.npmjs.org/prop-types/15.8.1
       qs: registry.npmjs.org/qs/6.11.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
     dev: true
 
-  registry.npmjs.org/@storybook/addon-measure/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-measure/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-zpNAt1XwBLnQ3OjCfj63J7vC2WCTyAjvbGVAsUkpQb21vr/e3sPFQZPKGwio85SYjIX7AJ+Oi28mbEwWzS8wFA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-measure/-/addon-measure-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-measure/6.5.8
     name: '@storybook/addon-measure'
@@ -5078,19 +5078,19 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
     dev: true
 
-  registry.npmjs.org/@storybook/addon-outline/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-outline/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-/bEjYTVJNM5QEiguS5nVQlerl5NhgOod1zLExnkchc8+FTJC58Vy7CRfzr2iaIMuf1QRPqBwSIy6ZqLJOdUfnQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-outline/-/addon-outline-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-outline/6.5.8
     name: '@storybook/addon-outline'
@@ -5104,21 +5104,21 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
     dev: true
 
-  registry.npmjs.org/@storybook/addon-toolbars/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-toolbars/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-16eRbbtn4/cH1xU8JlPZRdShwUwSsPcqpyH1JNl+rgYQ6SaSNq3aO/jDFeQe93guSD0YPRWHz8dKtn6OxVeozQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-toolbars/-/addon-toolbars-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-toolbars/6.5.8
     name: '@storybook/addon-toolbars'
@@ -5132,18 +5132,18 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
-  registry.npmjs.org/@storybook/addon-viewport/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addon-viewport/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-MTpZWkBWNPH55iNHK4tBNKTdew5xKfoNvOj0pZn1rYDHlylMTlq7aoccwRjjK2jZeHHNnb1rm6ZkQDjmYu0Tcw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addon-viewport/-/addon-viewport-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addon-viewport/6.5.8
     name: '@storybook/addon-viewport'
@@ -5157,22 +5157,22 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       memoizerific: registry.npmjs.org/memoizerific/1.11.3
       prop-types: registry.npmjs.org/prop-types/15.8.1
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
-  registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-L3LmbsYP9tDHHvpr/yv8YuEkzym7SXp/jZ0km31tpG3EuZmgGu7MXPrZ2ymEw4PkAhQzztgRr23VTfKobGUojA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/addons/-/addons-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/addons/6.5.8
     name: '@storybook/addons'
@@ -5181,22 +5181,22 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channels': registry.npmjs.org/@storybook/channels/6.5.8
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/webpack-env': registry.npmjs.org/@types/webpack-env/1.18.4
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
-  registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-/MueV+wLCvy9gFA3ih4g7QYjDmn14i+D2ydonfaEC7R+agFGXxXwJGPKkz3yBNrRpNkBwcbY9mAmv8lE2AqgqQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/api/-/api-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/api/6.5.8
     name: '@storybook/api'
@@ -5209,16 +5209,16 @@ packages:
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/semver': registry.npmjs.org/@storybook/semver/7.3.2
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       fast-deep-equal: registry.npmjs.org/fast-deep-equal/3.1.3
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
       memoizerific: registry.npmjs.org/memoizerific/1.11.3
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       store2: registry.npmjs.org/store2/2.14.2
       telejson: registry.npmjs.org/telejson/6.0.8
@@ -5226,7 +5226,7 @@ packages:
       util-deprecate: registry.npmjs.org/util-deprecate/1.0.2
     dev: true
 
-  registry.npmjs.org/@storybook/builder-webpack4/6.5.8_57bce19158533a280d74c2f88fe935d3:
+  registry.npmjs.org/@storybook/builder-webpack4/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2:
     resolution: {integrity: sha512-4/CVp/AlOxCeWZ/DF1TVS/TuzHao4l9KCq7DhL+utFEVl9c/dpgoZXc0Gy2FfHa2RXHKckrH/VUfV2KQk4TNSw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/builder-webpack4/-/builder-webpack4-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/builder-webpack4/6.5.8
     name: '@storybook/builder-webpack4'
@@ -5240,22 +5240,22 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core/7.23.3
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channel-postmessage': registry.npmjs.org/@storybook/channel-postmessage/6.5.8
       '@storybook/channels': registry.npmjs.org/@storybook/channels/6.5.8
-      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
-      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/semver': registry.npmjs.org/@storybook/semver/7.3.2
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/node': registry.npmjs.org/@types/node/16.18.61
       '@types/webpack': registry.npmjs.org/@types/webpack/4.41.36
       autoprefixer: registry.npmjs.org/autoprefixer/9.8.8
@@ -5275,8 +5275,8 @@ packages:
       postcss-flexbugs-fixes: registry.npmjs.org/postcss-flexbugs-fixes/4.2.1
       postcss-loader: registry.npmjs.org/postcss-loader/4.3.0_postcss@7.0.39+webpack@4.39.1
       raw-loader: registry.npmjs.org/raw-loader/4.0.2_webpack@4.39.1
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       stable: registry.npmjs.org/stable/0.1.8
       style-loader: registry.npmjs.org/style-loader/1.3.0_webpack@4.39.1
       terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin/4.2.3_webpack@4.39.1
@@ -5295,7 +5295,7 @@ packages:
       - vue-template-compiler
     dev: true
 
-  registry.npmjs.org/@storybook/builder-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78:
+  registry.npmjs.org/@storybook/builder-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0:
     resolution: {integrity: sha512-bc7LSGzOqTUImejsfjWAHEHwBreoPQKS6pfnWYkjKMvfvWOwlHSAxwOSM5DyS4cvpcpMDG8yBJNz2QcvXFVLxA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/builder-webpack5/-/builder-webpack5-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/builder-webpack5/6.5.8
     name: '@storybook/builder-webpack5'
@@ -5309,21 +5309,21 @@ packages:
         optional: true
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core/7.23.3
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channel-postmessage': registry.npmjs.org/@storybook/channel-postmessage/6.5.8
       '@storybook/channels': registry.npmjs.org/@storybook/channels/6.5.8
-      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
-      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/semver': registry.npmjs.org/@storybook/semver/7.3.2
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/node': registry.npmjs.org/@types/node/16.18.61
       babel-loader: registry.npmjs.org/babel-loader/8.0.6_8d9fd6ebbdf323464e360929a56a208f
       babel-plugin-named-exports-order: registry.npmjs.org/babel-plugin-named-exports-order/0.0.2
@@ -5337,8 +5337,8 @@ packages:
       html-webpack-plugin: registry.npmjs.org/html-webpack-plugin/5.5.3_webpack@5.89.0
       path-browserify: registry.npmjs.org/path-browserify/1.0.1
       process: registry.npmjs.org/process/0.11.10
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       stable: registry.npmjs.org/stable/0.1.8
       style-loader: registry.npmjs.org/style-loader/2.0.0_webpack@5.89.0
       terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin/5.3.9_webpack@5.89.0
@@ -5408,7 +5408,7 @@ packages:
       tiny-invariant: registry.npmjs.org/tiny-invariant/1.3.1
     dev: true
 
-  registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-mdU+qQ4+T2OUbEnl+3MWRKxEPju/EOIUg66hMgmif8c5u7YFYBFulUMUYLICMjll8Jlu+37+g+qO3K2eEz6CEw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/client-api/-/client-api-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/client-api/6.5.8
     name: '@storybook/client-api'
@@ -5417,13 +5417,13 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channel-postmessage': registry.npmjs.org/@storybook/channel-postmessage/6.5.8
       '@storybook/channels': registry.npmjs.org/@storybook/channels/6.5.8
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/qs': registry.npmjs.org/@types/qs/6.9.10
       '@types/webpack-env': registry.npmjs.org/@types/webpack-env/1.18.4
       core-js: registry.npmjs.org/core-js/3.33.2
@@ -5432,8 +5432,8 @@ packages:
       lodash: registry.npmjs.org/lodash/4.17.21
       memoizerific: registry.npmjs.org/memoizerific/1.11.3
       qs: registry.npmjs.org/qs/6.11.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       store2: registry.npmjs.org/store2/2.14.2
       synchronous-promise: registry.npmjs.org/synchronous-promise/2.0.17
@@ -5467,7 +5467,7 @@ packages:
       '@storybook/global': registry.npmjs.org/@storybook/global/5.0.0
     dev: true
 
-  registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-YE+LZ1/GXoqertxodsf+L9ehcohbICRAxgE/iNqc7MZfk95SD3XRSUbxhCpGe8QTIZJpzs1tK4LFZ3Fg5w/+Lg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/components/-/components-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/components/6.5.8
     name: '@storybook/components'
@@ -5478,18 +5478,18 @@ packages:
     dependencies:
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/react-syntax-highlighter': registry.npmjs.org/@types/react-syntax-highlighter/11.0.5
       core-js: registry.npmjs.org/core-js/3.33.2
       qs: registry.npmjs.org/qs/6.11.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
-      react-syntax-highlighter: registry.npmjs.org/react-syntax-highlighter/15.5.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
+      react-syntax-highlighter: registry.npmjs.org/react-syntax-highlighter/15.5.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       util-deprecate: registry.npmjs.org/util-deprecate/1.0.2
     dev: true
 
-  registry.npmjs.org/@storybook/core-client/6.5.8_657e4b6b9d8dae0f9437c7e313b26fbf:
+  registry.npmjs.org/@storybook/core-client/6.5.8_30b6aa32d8dfb17180e676cb9bb4ef2e:
     resolution: {integrity: sha512-8x8qKQ2clvpfDcoWrNBmQ8Xt9z/i32TFIBp4PEZMcbB7eqo517nzfllLiXDipiJgO7BGxKtY5CRHQ9pAU9G27A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/core-client/-/core-client-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/core-client/6.5.8
     name: '@storybook/core-client'
@@ -5503,24 +5503,24 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channel-postmessage': registry.npmjs.org/@storybook/channel-postmessage/6.5.8
       '@storybook/channel-websocket': registry.npmjs.org/@storybook/channel-websocket/6.5.8
-      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@16.14.0+react@16.14.0
       airbnb-js-shims: registry.npmjs.org/airbnb-js-shims/2.2.1
       ansi-to-html: registry.npmjs.org/ansi-to-html/0.6.15
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
       qs: registry.npmjs.org/qs/6.11.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
       typescript: registry.npmjs.org/typescript/4.5.4
@@ -5529,7 +5529,7 @@ packages:
       webpack: registry.npmjs.org/webpack/4.39.1
     dev: true
 
-  registry.npmjs.org/@storybook/core-client/6.5.8_dd6327cc01e6e40bd7eb391dee7bfef2:
+  registry.npmjs.org/@storybook/core-client/6.5.8_669007e7ab378d3ae67e4420deeadee0:
     resolution: {integrity: sha512-8x8qKQ2clvpfDcoWrNBmQ8Xt9z/i32TFIBp4PEZMcbB7eqo517nzfllLiXDipiJgO7BGxKtY5CRHQ9pAU9G27A==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/core-client/-/core-client-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/core-client/6.5.8
     name: '@storybook/core-client'
@@ -5543,24 +5543,24 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channel-postmessage': registry.npmjs.org/@storybook/channel-postmessage/6.5.8
       '@storybook/channel-websocket': registry.npmjs.org/@storybook/channel-websocket/6.5.8
-      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/client-api': registry.npmjs.org/@storybook/client-api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/preview-web': registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@16.14.0+react@16.14.0
       airbnb-js-shims: registry.npmjs.org/airbnb-js-shims/2.2.1
       ansi-to-html: registry.npmjs.org/ansi-to-html/0.6.15
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
       qs: registry.npmjs.org/qs/6.11.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
       typescript: registry.npmjs.org/typescript/4.5.4
@@ -5569,7 +5569,7 @@ packages:
       webpack: registry.npmjs.org/webpack/5.89.0_webpack-cli@3.3.6
     dev: true
 
-  registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3:
+  registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2:
     resolution: {integrity: sha512-ELGKLMx1d0oEA2LT+fsmo85X2RNE1EO+It7B1bw//g7jyf1hmZ7t3lXMZUCqt7eml1qy1N72LDkfmmU+H9H6ww==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/core-common/-/core-common-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/core-common/6.5.8
     name: '@storybook/core-common'
@@ -5626,8 +5626,8 @@ packages:
       picomatch: registry.npmjs.org/picomatch/2.3.1
       pkg-dir: registry.npmjs.org/pkg-dir/5.0.0
       pretty-hrtime: registry.npmjs.org/pretty-hrtime/1.0.3
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       resolve-from: registry.npmjs.org/resolve-from/5.0.0
       slash: registry.npmjs.org/slash/3.0.0
       telejson: registry.npmjs.org/telejson/6.0.8
@@ -5657,7 +5657,7 @@ packages:
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
     dev: true
 
-  registry.npmjs.org/@storybook/core-server/6.5.8_2df3203cdc68baf44b6babbf98621a5f:
+  registry.npmjs.org/@storybook/core-server/6.5.8_c62163a13cd0ca09a1a5d0f4c10543ba:
     resolution: {integrity: sha512-ti7+MW1xzD9O0JLwgZTwulxhJx5YGPNu+hRpGhJSjKrqGX1h6K6ilmkBSHvyLqpiE+F4mxvqb5Rx3KBIEdEgbw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/core-server/-/core-server-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/core-server/6.5.8
     name: '@storybook/core-server'
@@ -5677,19 +5677,19 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': registry.npmjs.org/@discoveryjs/json-ext/0.5.7
-      '@storybook/builder-webpack4': registry.npmjs.org/@storybook/builder-webpack4/6.5.8_57bce19158533a280d74c2f88fe935d3
-      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
-      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_657e4b6b9d8dae0f9437c7e313b26fbf
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/builder-webpack4': registry.npmjs.org/@storybook/builder-webpack4/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
+      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
+      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_30b6aa32d8dfb17180e676cb9bb4ef2e
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
       '@storybook/csf-tools': registry.npmjs.org/@storybook/csf-tools/6.5.8
-      '@storybook/manager-webpack4': registry.npmjs.org/@storybook/manager-webpack4/6.5.8_57bce19158533a280d74c2f88fe935d3
-      '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
+      '@storybook/manager-webpack4': registry.npmjs.org/@storybook/manager-webpack4/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
+      '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
       '@storybook/semver': registry.npmjs.org/@storybook/semver/7.3.2
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/telemetry': registry.npmjs.org/@storybook/telemetry/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/telemetry': registry.npmjs.org/@storybook/telemetry/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@types/node': registry.npmjs.org/@types/node/16.18.61
       '@types/node-fetch': registry.npmjs.org/@types/node-fetch/2.6.9
       '@types/pretty-hrtime': registry.npmjs.org/@types/pretty-hrtime/1.0.3
@@ -5713,8 +5713,8 @@ packages:
       open: registry.npmjs.org/open/8.4.2
       pretty-hrtime: registry.npmjs.org/pretty-hrtime/1.0.3
       prompts: registry.npmjs.org/prompts/2.4.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       serve-favicon: registry.npmjs.org/serve-favicon/2.5.0
       slash: registry.npmjs.org/slash/3.0.0
@@ -5736,7 +5736,7 @@ packages:
       - vue-template-compiler
     dev: true
 
-  registry.npmjs.org/@storybook/core/6.5.8_793afb05aa8735f28a26939cc8691601:
+  registry.npmjs.org/@storybook/core/6.5.8_82394ca6ddf1f2cd0a37365b81ad121c:
     resolution: {integrity: sha512-+Fv4n1E5N4Avty9GcRbz4vB2IWH//se2OUU+RTT3vneCOGjyus5bj0Or6GU5wef5UGuvHF78mHg/frhWpguzsw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/core/-/core-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/core/6.5.8
     name: '@storybook/core'
@@ -5756,12 +5756,12 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
-      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_dd6327cc01e6e40bd7eb391dee7bfef2
-      '@storybook/core-server': registry.npmjs.org/@storybook/core-server/6.5.8_2df3203cdc68baf44b6babbf98621a5f
-      '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
+      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_669007e7ab378d3ae67e4420deeadee0
+      '@storybook/core-server': registry.npmjs.org/@storybook/core-server/6.5.8_c62163a13cd0ca09a1a5d0f4c10543ba
+      '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       typescript: registry.npmjs.org/typescript/4.5.4
       webpack: registry.npmjs.org/webpack/5.89.0_webpack-cli@3.3.6
     transitivePeerDependencies:
@@ -5818,7 +5818,7 @@ packages:
       type-fest: registry.npmjs.org/type-fest/2.19.0
     dev: true
 
-  registry.npmjs.org/@storybook/docs-tools/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/docs-tools/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-CWMW+3LSstvQmHKV5ggPR1beQZTpwCXEhfysZ9u4Yp/4fcoDIuQ7DTOK5uNFynGCGl1FG3lATriEOhEZ3bZCvQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/docs-tools/-/docs-tools-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/docs-tools/6.5.8
     name: '@storybook/docs-tools'
@@ -5826,7 +5826,7 @@ packages:
     dependencies:
       '@babel/core': registry.npmjs.org/@babel/core/7.23.3
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
       doctrine: registry.npmjs.org/doctrine/3.0.0
       lodash: registry.npmjs.org/lodash/4.17.21
@@ -5843,13 +5843,13 @@ packages:
     version: 5.0.0
     dev: true
 
-  registry.npmjs.org/@storybook/instrumenter/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/instrumenter/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-MENB68yhmOnmBJW8NzlBSiFD4I7GfnBUMNMlGuoq6mT3/2C3BZqwtiVUx2ry1Rf+Yl9yoI3jMUa/JOJrQ/B34w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/instrumenter/-/instrumenter-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/instrumenter/6.5.8
     name: '@storybook/instrumenter'
     version: 6.5.8
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       core-js: registry.npmjs.org/core-js/3.33.2
@@ -5871,7 +5871,7 @@ packages:
       '@storybook/preview-api': registry.npmjs.org/@storybook/preview-api/7.5.3
     dev: true
 
-  registry.npmjs.org/@storybook/manager-webpack4/6.5.8_57bce19158533a280d74c2f88fe935d3:
+  registry.npmjs.org/@storybook/manager-webpack4/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2:
     resolution: {integrity: sha512-qW5/L3cJHvtNi5ylDxObALZWaAHMsWQlPP8GRxm95NHpff4CfRo/qs7puY9ZeLmJSic0KchoHEH/8AScflLOgA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/manager-webpack4/-/manager-webpack4-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/manager-webpack4/6.5.8
     name: '@storybook/manager-webpack4'
@@ -5887,12 +5887,12 @@ packages:
       '@babel/core': registry.npmjs.org/@babel/core/7.23.3
       '@babel/plugin-transform-template-literals': registry.npmjs.org/@babel/plugin-transform-template-literals/7.23.3_@babel+core@7.23.3
       '@babel/preset-react': registry.npmjs.org/@babel/preset-react/7.23.3_@babel+core@7.23.3
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_657e4b6b9d8dae0f9437c7e313b26fbf
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_30b6aa32d8dfb17180e676cb9bb4ef2e
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/node': registry.npmjs.org/@types/node/16.18.61
       '@types/webpack': registry.npmjs.org/@types/webpack/4.41.36
       babel-loader: registry.npmjs.org/babel-loader/8.0.6_bf9e7d5adc0e7cc8fc9586e864e7e780
@@ -5907,8 +5907,8 @@ packages:
       html-webpack-plugin: registry.npmjs.org/html-webpack-plugin/4.5.2_webpack@4.39.1
       node-fetch: registry.npmjs.org/node-fetch/2.7.0
       pnp-webpack-plugin: registry.npmjs.org/pnp-webpack-plugin/1.6.4_typescript@4.5.4
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       read-pkg-up: registry.npmjs.org/read-pkg-up/7.0.1
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       resolve-from: registry.npmjs.org/resolve-from/5.0.0
@@ -5929,7 +5929,7 @@ packages:
       - vue-template-compiler
     dev: true
 
-  registry.npmjs.org/@storybook/manager-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78:
+  registry.npmjs.org/@storybook/manager-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0:
     resolution: {integrity: sha512-foW/ZvTqGZAl4TfcfGKdS3RlaBDDAgEjUCbCaVShlZRshZ8tzWBVu3JQFqbPVGslH89T5qp9DUYoN/SJqTUpcg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/manager-webpack5/-/manager-webpack5-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/manager-webpack5/6.5.8
     name: '@storybook/manager-webpack5'
@@ -5945,12 +5945,12 @@ packages:
       '@babel/core': registry.npmjs.org/@babel/core/7.23.3
       '@babel/plugin-transform-template-literals': registry.npmjs.org/@babel/plugin-transform-template-literals/7.23.3_@babel+core@7.23.3
       '@babel/preset-react': registry.npmjs.org/@babel/preset-react/7.23.3_@babel+core@7.23.3
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_dd6327cc01e6e40bd7eb391dee7bfef2
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/core-client': registry.npmjs.org/@storybook/core-client/6.5.8_669007e7ab378d3ae67e4420deeadee0
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/ui': registry.npmjs.org/@storybook/ui/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/node': registry.npmjs.org/@types/node/16.18.61
       babel-loader: registry.npmjs.org/babel-loader/8.0.6_8d9fd6ebbdf323464e360929a56a208f
       case-sensitive-paths-webpack-plugin: registry.npmjs.org/case-sensitive-paths-webpack-plugin/2.4.0
@@ -5963,8 +5963,8 @@ packages:
       html-webpack-plugin: registry.npmjs.org/html-webpack-plugin/5.5.3_webpack@5.89.0
       node-fetch: registry.npmjs.org/node-fetch/2.7.0
       process: registry.npmjs.org/process/0.11.10
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       read-pkg-up: registry.npmjs.org/read-pkg-up/7.0.1
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       resolve-from: registry.npmjs.org/resolve-from/5.0.0
@@ -6073,7 +6073,7 @@ packages:
       util-deprecate: registry.npmjs.org/util-deprecate/1.0.2
     dev: true
 
-  registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/preview-web/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-jEEAgvTVZfFA0B20mRJfLW6dPA5mG5PxUJtjMx6wH4Yw4+i3Sld/U63hTRt7ktpKdrcu4lX9E+PuaRLPq7S2kg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/preview-web/-/preview-web-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/preview-web/6.5.8
     name: '@storybook/preview-web'
@@ -6082,19 +6082,19 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channel-postmessage': registry.npmjs.org/@storybook/channel-postmessage/6.5.8
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
       ansi-to-html: registry.npmjs.org/ansi-to-html/0.6.15
       core-js: registry.npmjs.org/core-js/3.33.2
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
       qs: registry.npmjs.org/qs/6.11.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       synchronous-promise: registry.npmjs.org/synchronous-promise/2.0.17
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
@@ -6124,7 +6124,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmjs.org/@storybook/react/6.5.8_789ff8f7cc6be75372f447df75a13a17:
+  registry.npmjs.org/@storybook/react/6.5.8_3bb29f7f4bd665e21d36d35db429d9d4:
     resolution: {integrity: sha512-LdObfhhPb9gAFBtRNb3awYJe1qMiYeda1ppkj0ZvccbV04YrmbW5bzYvfOCvU6D34ugbQJhJyWuvraO/0EJK6w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/react/-/react-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/react/6.5.8
     name: '@storybook/react'
@@ -6159,18 +6159,18 @@ packages:
       '@babel/preset-flow': registry.npmjs.org/@babel/preset-flow/7.23.3_@babel+core@7.5.5
       '@babel/preset-react': registry.npmjs.org/@babel/preset-react/7.23.3_@babel+core@7.5.5
       '@pmmmwh/react-refresh-webpack-plugin': registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/0.5.11_d759c1ad6d05b93a65cac45625ec8367
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/builder-webpack5': registry.npmjs.org/@storybook/builder-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/core': registry.npmjs.org/@storybook/core/6.5.8_793afb05aa8735f28a26939cc8691601
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/core': registry.npmjs.org/@storybook/core/6.5.8_82394ca6ddf1f2cd0a37365b81ad121c
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
-      '@storybook/docs-tools': registry.npmjs.org/@storybook/docs-tools/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_defc7ec3d292ab1caa09ffcc3743ad78
+      '@storybook/docs-tools': registry.npmjs.org/@storybook/docs-tools/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/manager-webpack5': registry.npmjs.org/@storybook/manager-webpack5/6.5.8_728c8a621fe432257c48167ac68d5cb0
       '@storybook/node-logger': registry.npmjs.org/@storybook/node-logger/6.5.8
       '@storybook/react-docgen-typescript-plugin': registry.npmjs.org/@storybook/react-docgen-typescript-plugin/1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0_typescript@4.5.4+webpack@5.89.0
       '@storybook/semver': registry.npmjs.org/@storybook/semver/7.3.2
-      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/store': registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0
       '@types/estree': registry.npmjs.org/@types/estree/0.0.51
       '@types/node': registry.npmjs.org/@types/node/16.18.61
       '@types/webpack-env': registry.npmjs.org/@types/webpack-env/1.18.4
@@ -6186,9 +6186,9 @@ packages:
       html-tags: registry.npmjs.org/html-tags/3.3.1
       lodash: registry.npmjs.org/lodash/4.17.21
       prop-types: registry.npmjs.org/prop-types/15.8.1
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
-      react-element-to-jsx-string: registry.npmjs.org/react-element-to-jsx-string/14.3.4_react-dom@18.2.0+react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
+      react-element-to-jsx-string: registry.npmjs.org/react-element-to-jsx-string/14.3.4_react-dom@16.14.0+react@16.14.0
       react-refresh: registry.npmjs.org/react-refresh/0.11.0
       read-pkg-up: registry.npmjs.org/read-pkg-up/7.0.1
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
@@ -6216,7 +6216,7 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-tseNJpZ2ZzVYowjekUMpGJVVRMrwOkttieD9mRbHrhh+2n7b+SoMKnuLi3ow0xeOyPL8ZDng2FgRjQzQHXA5Sw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/router/-/router-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/router/6.5.8
     name: '@storybook/router'
@@ -6227,8 +6227,8 @@ packages:
     dependencies:
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       core-js: registry.npmjs.org/core-js/3.33.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
@@ -6243,7 +6243,7 @@ packages:
       find-up: registry.npmjs.org/find-up/4.1.0
     dev: true
 
-  registry.npmjs.org/@storybook/source-loader/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/source-loader/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-3bVxXKE2o6lS4WGga/S7WwgITxPQ96qsY+pQ1I7A+e4/cKSmZxlVWM9qfMW2ScmHTVoZE0Ujsmn6DWftxzCyrQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/source-loader/-/source-loader-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/source-loader/6.5.8
     name: '@storybook/source-loader'
@@ -6252,7 +6252,7 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
       core-js: registry.npmjs.org/core-js/3.33.2
@@ -6261,12 +6261,12 @@ packages:
       loader-utils: registry.npmjs.org/loader-utils/2.0.4
       lodash: registry.npmjs.org/lodash/4.17.21
       prettier: registry.npmjs.org/prettier/2.3.0
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
-  registry.npmjs.org/@storybook/store/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/store/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-5rhGjN/O0oLebRv947B0vgapq48qBBBYYOgq4krRUYU2ecS6LUgtAHR/kTa324o9aBO8cnIXHH78jZcSvMiJlQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/store/-/store-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/store/6.5.8
     name: '@storybook/store'
@@ -6275,7 +6275,7 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
       '@storybook/csf': registry.npmjs.org/@storybook/csf/0.0.2--canary.4566f4d.1
@@ -6284,8 +6284,8 @@ packages:
       global: registry.npmjs.org/global/4.4.0
       lodash: registry.npmjs.org/lodash/4.17.21
       memoizerific: registry.npmjs.org/memoizerific/1.11.3
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       slash: registry.npmjs.org/slash/3.0.0
       stable: registry.npmjs.org/stable/0.1.8
@@ -6294,14 +6294,14 @@ packages:
       util-deprecate: registry.npmjs.org/util-deprecate/1.0.2
     dev: true
 
-  registry.npmjs.org/@storybook/telemetry/6.5.8_57bce19158533a280d74c2f88fe935d3:
+  registry.npmjs.org/@storybook/telemetry/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2:
     resolution: {integrity: sha512-QnAhYF8CwcjC1bT2PK7Zqvo6E42TPl0MY6JS+H6qSZU/BmYeS0It8ZURNfPsA/OzVVLHUkQs96CisKh3N0WWaw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/telemetry/-/telemetry-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/telemetry/6.5.8
     name: '@storybook/telemetry'
     version: 6.5.8
     dependencies:
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_57bce19158533a280d74c2f88fe935d3
+      '@storybook/core-common': registry.npmjs.org/@storybook/core-common/6.5.8_4ee8d703ca7e4280a59c2eaec5efafb2
       chalk: registry.npmjs.org/chalk/4.1.2
       core-js: registry.npmjs.org/core-js/3.33.2
       detect-package-manager: registry.npmjs.org/detect-package-manager/2.0.1
@@ -6334,7 +6334,7 @@ packages:
       ts-dedent: registry.npmjs.org/ts-dedent/2.2.0
     dev: true
 
-  registry.npmjs.org/@storybook/theming/6.5.16_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/theming/6.5.16_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-hNLctkjaYLRdk1+xYTkC1mg4dYz2wSv6SqbLpcKMbkPHTE0ElhddGPHQqB362md/w9emYXNkt1LSMD8Xk9JzVQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/theming/-/theming-6.5.16.tgz}
     id: registry.npmjs.org/@storybook/theming/6.5.16
     name: '@storybook/theming'
@@ -6346,12 +6346,12 @@ packages:
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.16
       core-js: registry.npmjs.org/core-js/3.33.2
       memoizerific: registry.npmjs.org/memoizerific/1.11.3
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
-  registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-1VaKHqj38Ls1bJwDpg3+aEOlvVib/DCFkP6WYrP/AQtNAzxiyw5WkaoRlTVJZvCdu5TxjpG4O6/Ai5TI9QftIg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/theming/-/theming-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/theming/6.5.8
     name: '@storybook/theming'
@@ -6362,8 +6362,8 @@ packages:
     dependencies:
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
       core-js: registry.npmjs.org/core-js/3.33.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
     dev: true
 
@@ -6378,7 +6378,7 @@ packages:
       file-system-cache: registry.npmjs.org/file-system-cache/2.3.0
     dev: true
 
-  registry.npmjs.org/@storybook/ui/6.5.8_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/@storybook/ui/6.5.8_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-rL09kxgY9pCVbxr/VUK4b5FL5VbALfciZR+50sNT1EcTDb9k0OPeqx7a4Ptc+KNkgyPdSTxUGvhzVqH5PYrhZQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@storybook/ui/-/ui-6.5.8.tgz}
     id: registry.npmjs.org/@storybook/ui/6.5.8
     name: '@storybook/ui'
@@ -6387,18 +6387,18 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@18.2.0+react@18.2.0
-      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/addons': registry.npmjs.org/@storybook/addons/6.5.8_react-dom@16.14.0+react@16.14.0
+      '@storybook/api': registry.npmjs.org/@storybook/api/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/channels': registry.npmjs.org/@storybook/channels/6.5.8
       '@storybook/client-logger': registry.npmjs.org/@storybook/client-logger/6.5.8
-      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/components': registry.npmjs.org/@storybook/components/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/core-events': registry.npmjs.org/@storybook/core-events/6.5.8
-      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/router': registry.npmjs.org/@storybook/router/6.5.8_react-dom@16.14.0+react@16.14.0
       '@storybook/semver': registry.npmjs.org/@storybook/semver/7.3.2
-      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@18.2.0+react@18.2.0
+      '@storybook/theming': registry.npmjs.org/@storybook/theming/6.5.8_react-dom@16.14.0+react@16.14.0
       core-js: registry.npmjs.org/core-js/3.33.2
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       regenerator-runtime: registry.npmjs.org/regenerator-runtime/0.13.11
       resolve-from: registry.npmjs.org/resolve-from/5.0.0
     dev: true
@@ -16019,7 +16019,6 @@ packages:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
       object-assign: registry.npmjs.org/object-assign/4.1.1
       react-is: registry.npmjs.org/react-is/16.13.1
-    dev: true
 
   registry.npmjs.org/property-information/5.6.0:
     resolution: {integrity: sha512-YUHSPk+A30YPv+0Qf8i9Mbfe/C0hdPXk1s1jPVToV8pk8BQtpw10ct89Eo7OWkutrwqvT0eicAxlOg3dOAu8JA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/property-information/-/property-information-5.6.0.tgz}
@@ -16315,20 +16314,22 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmjs.org/react-dom/18.2.0_react@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz}
-    id: registry.npmjs.org/react-dom/18.2.0
+  registry.npmjs.org/react-dom/16.14.0_react@16.14.0:
+    resolution: {integrity: sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz}
+    id: registry.npmjs.org/react-dom/16.14.0
     name: react-dom
-    version: 18.2.0
+    version: 16.14.0
     peerDependencies:
-      react: ^18.2.0
+      react: ^16.14.0
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
-      react: registry.npmjs.org/react/18.2.0
-      scheduler: registry.npmjs.org/scheduler/0.23.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      prop-types: registry.npmjs.org/prop-types/15.8.1
+      react: registry.npmjs.org/react/16.14.0
+      scheduler: registry.npmjs.org/scheduler/0.19.1
     dev: false
 
-  registry.npmjs.org/react-element-to-jsx-string/14.3.4_react-dom@18.2.0+react@18.2.0:
+  registry.npmjs.org/react-element-to-jsx-string/14.3.4_react-dom@16.14.0+react@16.14.0:
     resolution: {integrity: sha512-t4ZwvV6vwNxzujDQ+37bspnLwA4JlgUPWhLjBJWsNIDceAf6ZKUTCjdm08cN6WeZ5pTMKiCJkmAYnpmR4Bm+dg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-element-to-jsx-string/-/react-element-to-jsx-string-14.3.4.tgz}
     id: registry.npmjs.org/react-element-to-jsx-string/14.3.4
     name: react-element-to-jsx-string
@@ -16339,12 +16340,12 @@ packages:
     dependencies:
       '@base2/pretty-print-object': registry.npmjs.org/@base2/pretty-print-object/1.0.1
       is-plain-object: registry.npmjs.org/is-plain-object/5.0.0
-      react: registry.npmjs.org/react/18.2.0
-      react-dom: registry.npmjs.org/react-dom/18.2.0_react@18.2.0
+      react: registry.npmjs.org/react/16.14.0
+      react-dom: registry.npmjs.org/react-dom/16.14.0_react@16.14.0
       react-is: registry.npmjs.org/react-is/17.0.2
     dev: true
 
-  registry.npmjs.org/react-inspector/5.1.1_react@18.2.0:
+  registry.npmjs.org/react-inspector/5.1.1_react@16.14.0:
     resolution: {integrity: sha512-GURDaYzoLbW8pMGXwYPDBIv6nqei4kK7LPRZ9q9HCZF54wqXz/dnylBp/kfE9XmekBhHvLDdcYeyIwSrvtOiWg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.1.tgz}
     id: registry.npmjs.org/react-inspector/5.1.1
     name: react-inspector
@@ -16355,14 +16356,13 @@ packages:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.23.2
       is-dom: registry.npmjs.org/is-dom/1.1.0
       prop-types: registry.npmjs.org/prop-types/15.8.1
-      react: registry.npmjs.org/react/18.2.0
+      react: registry.npmjs.org/react/16.14.0
     dev: true
 
   registry.npmjs.org/react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz}
     name: react-is
     version: 16.13.1
-    dev: true
 
   registry.npmjs.org/react-is/17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz}
@@ -16383,7 +16383,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  registry.npmjs.org/react-syntax-highlighter/15.5.0_react@18.2.0:
+  registry.npmjs.org/react-syntax-highlighter/15.5.0_react@16.14.0:
     resolution: {integrity: sha512-+zq2myprEnQmH5yw6Gqc8lD55QHnpKaU8TOcFeC/Lg/MQSs8UknEA0JC4nTZGFAXC2J2Hyj/ijJ7NlabyPi2gg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react-syntax-highlighter/-/react-syntax-highlighter-15.5.0.tgz}
     id: registry.npmjs.org/react-syntax-highlighter/15.5.0
     name: react-syntax-highlighter
@@ -16395,17 +16395,19 @@ packages:
       highlight.js: registry.npmjs.org/highlight.js/10.7.3
       lowlight: registry.npmjs.org/lowlight/1.20.0
       prismjs: registry.npmjs.org/prismjs/1.29.0
-      react: registry.npmjs.org/react/18.2.0
+      react: registry.npmjs.org/react/16.14.0
       refractor: registry.npmjs.org/refractor/3.6.0
     dev: true
 
-  registry.npmjs.org/react/18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react/-/react-18.2.0.tgz}
+  registry.npmjs.org/react/16.14.0:
+    resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/react/-/react-16.14.0.tgz}
     name: react
-    version: 18.2.0
+    version: 16.14.0
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
+      prop-types: registry.npmjs.org/prop-types/15.8.1
     dev: false
 
   registry.npmjs.org/read-cmd-shim/1.0.5:
@@ -17095,12 +17097,13 @@ packages:
       walker: registry.npmjs.org/walker/1.0.8
     dev: true
 
-  registry.npmjs.org/scheduler/0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz}
+  registry.npmjs.org/scheduler/0.19.1:
+    resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz}
     name: scheduler
-    version: 0.23.0
+    version: 0.19.1
     dependencies:
       loose-envify: registry.npmjs.org/loose-envify/1.4.0
+      object-assign: registry.npmjs.org/object-assign/4.1.1
     dev: false
 
   registry.npmjs.org/schema-utils/1.0.0:
