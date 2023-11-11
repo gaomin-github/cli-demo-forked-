@@ -1,6 +1,6 @@
 {
-  "name": "btns",
-  "version": "1.0.0",
+  "name": "@cli-demo-pj/btns",
+  "version": "1.0.2-beta.0",
   "description": "> TODO: description",
   "author": "g-github <374204501@qq.com>",
   "homepage": "https://github.com/gaomin-github/cli-demo-forked-#readme",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",

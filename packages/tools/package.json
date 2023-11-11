@@ -1,6 +1,6 @@
 {
-  "name": "tools",
-  "version": "1.0.0",
+  "name": "@cli-demo-pj/tools",
+  "version": "1.0.4-beta.0",
   "description": "helper and utils set",
   "keywords": [
     "tools"
@@ -17,7 +17,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,5 @@
   "dependencies": {
     "immer": "8.0.1"
   },
-  "private": true
+  "gitHead": "0e8e11241052aa3c1f1f35f47ad377ad352c42e6"
 }
