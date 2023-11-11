@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon",
+    "build": "webpack --config webpack.config.js",
     "build-and-expose": "webpack && node backend localhost 1234",
     "storybook": "node scripts/storybook/start-storybook",
     "build-storybook": "build-storybook"
