@@ -8,18 +8,17 @@ const reportException = (e: unknown) => {
   console.log("reportException code", code, "msg", msg);
 };
 
-const printLog = (log: string) => {
+const printLog = (log: string,isError = false) => {
+  if (isError) {
+    console.error(`printLog：${log}`);
+    return;
+  }
   console.log(`printLog：${log}`);
-};
-
-const printError = (log: string) => {
-  console.error(`printLog：${log}`);
 };
 
 const tools = {
   reportException,
   printLog,
-  printError,
 };
 
 export default tools;
