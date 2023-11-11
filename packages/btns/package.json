@@ -28,6 +28,7 @@
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
   "dependencies": {
-    "immer": "8.0.1"
+    "immer": "8.0.1",
+    "@cli-demo-pj/tools": "1.0.5-test-beta.0"
   }
 }
