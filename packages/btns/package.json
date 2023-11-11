@@ -1,6 +1,6 @@
 {
   "name": "@cli-demo-pj/btns",
-  "version": "1.0.5-test-beta.0",
+  "version": "1.0.6-test-beta.0",
   "description": "> TODO: description",
   "author": "g-github <374204501@qq.com>",
   "homepage": "https://github.com/gaomin-github/cli-demo-forked-#readme",
@@ -28,7 +28,7 @@
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
   "dependencies": {
-    "@cli-demo-pj/tools": "1.0.5-test-beta.0",
+    "@cli-demo-pj/tools": "^1.0.6-test-beta.0",
     "immer": "8.0.1"
   }
 }
