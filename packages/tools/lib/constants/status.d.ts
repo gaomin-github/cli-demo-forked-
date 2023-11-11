@@ -1,4 +1,4 @@
-declare type ValueOf<T> = T[keyof T];
+type ValueOf<T> = T[keyof T];
 declare const ErrorCodeMap: {
     "302": string;
     "404": string;
@@ -11,5 +11,5 @@ export declare enum MoveStatus {
     Paused = 5,
     PartialError = 6
 }
-export declare type ERROR_CODE_TYPE = ValueOf<typeof ErrorCodeMap>;
+export type ERROR_CODE_TYPE = ValueOf<typeof ErrorCodeMap>;
 export {};
