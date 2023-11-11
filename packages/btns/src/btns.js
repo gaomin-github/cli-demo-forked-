@@ -1,3 +1,5 @@
 "use strict";
 
-export default {};
+export default {
+  a: '1'
+};
