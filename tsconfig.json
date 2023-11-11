@@ -99,7 +99,8 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "suppressImplicitAnyIndexErrors": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    // "ignoreDeprecations": "5.0",
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   }
 }
