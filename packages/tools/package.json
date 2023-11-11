@@ -24,7 +24,8 @@
     "url": "git+https://github.com/gaomin-github/cli-demo-forked-.git"
   },
   "scripts": {
-    "tsc": "tsc",
+    "tsc": "tsc --outDir lib/ejs",
+    "tsc_cjs": "tsc --module commonjs --outDir lib/cjs",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
