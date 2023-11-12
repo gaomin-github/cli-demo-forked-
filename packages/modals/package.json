@@ -1,0 +1,29 @@
+{
+  "name": "@cli-demo-pj/modals",
+  "version": "1.0.1-test-beta.0",
+  "description": "> TODO: description",
+  "author": "gaomin-github <374204501@qq.com>",
+  "homepage": "https://github.com/gaomin-github/cli-demo-forked-#readme",
+  "license": "UNLICENSED",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaomin-github/cli-demo-forked-.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
+  }
+}
