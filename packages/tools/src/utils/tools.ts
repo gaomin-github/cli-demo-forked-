@@ -1,6 +1,6 @@
 "use strict";
 
-const reportException = (e: unknown) => {
+export const reportException = (e: unknown) => {
   if (!e) {
     return;
   }
@@ -8,7 +8,7 @@ const reportException = (e: unknown) => {
   console.log("reportException code", code, "msg", msg);
 };
 
-const printLog = (log: string,isError = false) => {
+export const printLog = (log: string,isError = false) => {
   if (isError) {
     console.error(`printLog：${log}`);
     return;
@@ -16,9 +16,6 @@ const printLog = (log: string,isError = false) => {
   console.log(`printLog：${log}`);
 };
 
-const tools = {
-  reportException,
-  printLog,
+export const requestApi = () => {
+  printLog('request init');
 };
-
-export default tools;

@@ -1,11 +1,2 @@
-# `modals`
-
-> TODO: description
-
-## Usage
-
-```
-const modals = require('modals');
-
-// TODO: DEMONSTRATE API
-```
+# 本地storybook启动
+PACKAGE=modals npm run storybook

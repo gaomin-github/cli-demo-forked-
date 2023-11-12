@@ -1,2 +1,2 @@
 "use strict";
-export { NormalButton } from './normal-button';
+export * from './normal-button';

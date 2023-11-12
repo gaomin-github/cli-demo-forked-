@@ -1,14 +1,12 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-module.exports = {
-  entry: "./app/main.ts",
+const PACKAGE = process.env.PACKAGE || 'btns';
+
+const commonConfig = {
   mode: "production",
-  output: {
-    publicPath: "/",
-    filename: "index.js",
-    path: path.join(__dirname, "dist"),
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
   },
+  entry: `./packages/${PACKAGE}/src/index.ts`,
   module: {
     rules: [
       {
@@ -40,22 +38,26 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.html$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "html-loader",
-        },
-      },
     ],
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./app/index.html",
-    }),
-    new CleanWebpackPlugin(),
-  ],
-  resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
-  },
+  }
 };
+
+module.exports = [{
+  ...commonConfig,
+  output: {
+    publicPath: "/",
+    filename: "index.js",
+    path: path.join(__dirname, "lib/ejs"),
+    libraryTarget: 'ejs'
+  },
+}, {
+  ...commonConfig,
+  output: {
+    publicPath: "/",
+    filename: "index.js",
+    path: path.join(__dirname, "lib/cjs"),
+    libraryTarget: 'commonjs'
+  },
+}];
+
+
