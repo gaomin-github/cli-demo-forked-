@@ -1,5 +1,5 @@
 import React from 'react';
-import { NormalButton } from '@cli-demo-pj/btns/src/normal-button';
+import { NormalButton } from '@cli-demo-pj/btns';
 import { ButtonDemo } from './button-demo';
 
 export const Dialog = () => {

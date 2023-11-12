@@ -15,4 +15,6 @@ pnpm i rollup@2.70.2 rollup-plugin-filesize@9.1.2 rollup-plugin-multi-input@1.3.
 参考：
 https://docs.qq.com/aio/DSHhTeUdpR2dqVlZv?p=JH7SRpMxgylyA3H62ugn6W
 
-
+# 打包的文件只能从src访问，其它路径访问不到的处理方式
+修改引用包中package.json的module types exports
+参考：https://juejin.cn/post/7212436135287504954
