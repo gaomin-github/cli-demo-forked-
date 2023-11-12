@@ -23,13 +23,13 @@
   },
   "scripts": {
     "start": "nodemon",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "node build/bin"
   },
   "bugs": {
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
   "dependencies": {
-    "@cli-demo-pj/tools": "^1.0.6-test-beta.0",
     "immer": "8.0.1"
   }
 }

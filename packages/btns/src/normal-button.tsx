@@ -1,9 +1,9 @@
 import React from 'react';
-import Log from '@cli-demo-pj/tools/lib/utils/tools';
+// import { printLog } from '@cli-demo-pj/tools/lib/ejs/utils/tools';
 
 export const NormalButton = () => {
   const handleBtnClick = () => {
-    Log.printLog('normalButton');
+    // printLog('normalButton');
   };
 
   return (

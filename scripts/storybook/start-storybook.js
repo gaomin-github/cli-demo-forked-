@@ -1,8 +1,8 @@
 const { execSync } = require('child_process');
 const { logger } = require('../utils/log');
 
-const PACKAGE = process.env.PACKAGE || 'btns';
-const port = process.env.PORT || '6001';
+const PACKAGE = process.env.PACKAGE;
+const port = process.env.PORT;
 
 (async() => {
   try {

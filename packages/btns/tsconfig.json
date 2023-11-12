@@ -2,7 +2,8 @@
     "extends": "../../tsconfig.json",
     "compilerOptions": {
       "outDir": "./dist",
-      "baseUrl": "."
+      "baseUrl": ".",
+      "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
     },
     "include": ["src/**/*", "stories/**/*"]
   }
