@@ -24,7 +24,7 @@ export default {
 
     },
     {
-      file: 'lib/cjs/index.cjs',
+      file: 'lib/cjs/index.js',
       format: 'cjs',
       sourcemap: true,
       exports: 'named',

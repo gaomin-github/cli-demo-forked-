@@ -5,7 +5,17 @@
   "author": "g-github <374204501@qq.com>",
   "homepage": "https://github.com/gaomin-github/cli-demo-forked-#readme",
   "license": "MIT",
-  "main": "lib/btns.ts",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/ejs/index.js",
+  "types": "./lib/ejs/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/ejs/index.d.ts",
+      "import": "./lib/ejs/index.js",
+      "require": "./lib/cjs/index.js",
+      "default": "./lib/cjs/index.js"
+    }
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
