@@ -1,6 +1,6 @@
 {
   "name": "@cli-demo-pj/btns",
-  "version": "1.0.8-test-beta.0",
+  "version": "1.0.9-test-beta.0",
   "description": "> TODO: description",
   "author": "g-github <374204501@qq.com>",
   "homepage": "https://github.com/gaomin-github/cli-demo-forked-#readme",
@@ -30,13 +30,13 @@
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
   "dependencies": {
+    "immer": "8.0.1",
     "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "immer": "8.0.1"
+    "react-dom": "16.13.0"
   },
   "peerDependencies": {
+    "immer": "8.0.1",
     "react": "16.13.0",
-    "react-dom": "16.13.0",
-    "immer": "8.0.1"
+    "react-dom": "16.13.0"
   }
 }
