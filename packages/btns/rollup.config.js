@@ -9,28 +9,27 @@ import filesize from 'rollup-plugin-filesize';
 
 import pkg from './package.json';
 
-const dependencies = (({ dependencies }) => Object.keys(dependencies || {}).concat(['@babel/runtime-corejs3']))(
+const dependencies = (({ peerDependencies }) => Object.keys(peerDependencies || {}).concat(['@babel/runtime-corejs3']))(
   pkg,
 );
-const extensions = ['.ts'];
+const extensions = [...DEFAULT_EXTENSIONS, '.ts', '.tsx'];
 
 export default {
   input: `${__dirname}/src/index.ts`,
-  output: 
-    {
+  output: [{
       file: 'lib/ejs/index.js',
       format: 'es',
       sourcemap: true,
       hoistTransitiveImports: false,
 
     },
-    // {
-    //   file: 'lib/cjs/index.cjs',
-    //   format: 'cjs',
-    //   sourcemap: true,
-    //   exports: 'named',
-    // }
-  
+    {
+      file: 'lib/cjs/index.cjs',
+      format: 'cjs',
+      sourcemap: true,
+      exports: 'named',
+    }
+  ],
   external:  id => {
     for (const dep of dependencies) {
       const reg = new RegExp(`^${dep}`);
