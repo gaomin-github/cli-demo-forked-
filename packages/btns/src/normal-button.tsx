@@ -1,12 +1,10 @@
 import React from 'react';
-// import { printLog } from '@cli-demo-pj/tools/lib/ejs/utils/tools';
+// import Tool from '@cli-demo-pj/tools';
 
 export const NormalButton = () => {
   const handleBtnClick = () => {
-    // printLog('normalButton');
+    // Tool.printLog('normalButton');
   };
 
-  return (
-    <div onClick={handleBtnClick}> normal button</div>
-  );
-}
+  return <div onClick={handleBtnClick}> normal button</div>;
+};

@@ -1,0 +1,4 @@
+{
+  "pnpm-lock.yaml": "node scripts/lint/lint-pnpm-lock.js",
+  "*": "node scripts/lint/lint-oversize-files.js"
+}
