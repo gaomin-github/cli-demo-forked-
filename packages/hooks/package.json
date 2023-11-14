@@ -25,5 +25,9 @@
   },
   "bugs": {
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
+  },
+  "dependencies": {
+    "@types/lodash-es": "4.17.6",
+    "lodash-es": "4.17.11"
   }
 }

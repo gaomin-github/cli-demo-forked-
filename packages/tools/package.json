@@ -31,8 +31,12 @@
   "bugs": {
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
-  "dependencies": {
-    "immer": "8.0.1"
+  "peerDependencies": {
+    "immer": "8.0.1",
+    "lodash-es": "4.17.11"
   },
-  "gitHead": "0e8e11241052aa3c1f1f35f47ad377ad352c42e6"
+  "gitHead": "0e8e11241052aa3c1f1f35f47ad377ad352c42e6",
+  "devDependencies": {
+    "@types/lodash-es": "4.17.6"
+  }
 }

@@ -40,7 +40,9 @@
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
   "dependencies": {
+    "@types/lodash-es": "4.17.6",
     "immer": "8.0.1",
+    "lodash-es": "4.17.11",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },

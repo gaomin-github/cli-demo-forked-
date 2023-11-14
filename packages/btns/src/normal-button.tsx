@@ -6,5 +6,9 @@ export const NormalButton = () => {
     // Tool.printLog('normalButton');
   };
 
-  return <div onClick={handleBtnClick}> normal button</div>;
+  return (
+    <div onClick={handleBtnClick} className="normal-button">
+      normal button
+    </div>
+  );
 };

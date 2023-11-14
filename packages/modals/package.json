@@ -27,6 +27,8 @@
     "url": "https://github.com/gaomin-github/cli-demo-forked-/issues"
   },
   "dependencies": {
-    "@cli-demo-pj/btns": "^1.0.1-test.0"
+    "@cli-demo-pj/btns": "^1.0.1-test.0",
+    "@types/lodash-es": "4.17.6",
+    "lodash-es": "4.17.11"
   }
 }

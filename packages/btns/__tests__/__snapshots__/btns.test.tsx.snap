@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`btns normalButton 1`] = `
+<div>
+  <div
+    class="normal-button"
+  >
+    normal button
+  </div>
+</div>
+`;
