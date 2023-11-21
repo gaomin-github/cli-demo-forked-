@@ -1,4 +1,6 @@
 # e2e
+
+
 ## 组成部分：
 
 1）用例编写 执行
@@ -105,4 +107,18 @@ snapshot
 
 
 
+## 关于puppeteer
+https://blog.it2048.cn/article-puppeteer-speed-up/
+https://github.com/biaochenxuying/blog/issues/69
+https://blog.guowenfh.com/2019/06/16/2019/puppeteer-pool/
+
+> * [结合项目来谈谈 Puppeteer](https://juejin.im/post/5d4059305188255d38489a8c)
+> * [Puppeteer 爬虫性能优化](https://github.com/nfwyst/Blog/issues/14)
+> * [京喜前端自动化测试之路](https://aotu.io/notes/2020/05/06/jingxi-automated-testing/index.html)
+> * [利用 cluster 优化 Puppeteer](https://www.yuque.com/luqixiuzichiji/nodejs/ces)
+> * [可爱的Puppeteer使用小技巧](https://yrq110.me/post/front-end/some-tips-of-using-puppetter/)
+> * [puppeteer优化小技巧](https://juejin.im/post/5db97541e51d4529de39f72d)
+> * [使用 Puppeteer 搭建统一海报渲染服务](https://www.infoq.cn/article/dcSBL_9AzCwVPsaQ70dh)
+
+https://www.chromium.org/developers/how-tos/run-chromium-with-flags
 

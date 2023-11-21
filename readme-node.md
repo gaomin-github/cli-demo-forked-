@@ -5,3 +5,7 @@
 2）cross-spawn 是 node spawn 和 spawnSync 的跨平台实现，使用方式完全一致，主要解决 node spawn 在 Windows 上存在的问题。
 https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fmoxystudio%2Fnode-cross-spawn%23why
 
+# node的debug
+https://juejin.cn/post/6844903686867533831
+
+
