@@ -35,6 +35,11 @@ react工作过程描述
 
 html调用js，执行react component render
 
+
+## hydrate问题（解决方案）
+1. 坑
+https://zhuanlan.zhihu.com/p/33887159
+
 # 初次执行
 1）jsx用ast解析为 React.createElement;
 问：解析用的什么？ReactElement和React.createElement关系？和fiber的关系
@@ -49,7 +54,7 @@ html调用js，执行react component render
 3）对于类组件，发生了什么？
 怎么订阅状态更新做rerender？
 
-4）对于函数组件，发生了什么？
+4）对于函数组件，发生了什么？函数组件如何保存状态？
 
 5）render和真正的画出dom，区别是什么？
 

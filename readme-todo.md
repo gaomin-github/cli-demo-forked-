@@ -80,10 +80,11 @@ calc计算乘除？
 http握手
 http状态码
 302 301 307 304的区别？哪个seo更好？怎么用？
+协商缓存 & etag last-modified区别
+有强缓存，更新后怎么访问到最新文件‘
 跨域怎么处理？
 jsonp缺点？
 base64和外链资源的应用场景？优缺点？
-协商缓存 & etag last-modified区别
 vue3相比2的提升
 proxy和defineProperty对比？
 sync修饰器作用
@@ -96,10 +97,13 @@ react框架优化
 事件绑定方式有几种？
 React.refs作用
 
-双向数据绑定和单向数据流优缺点？
+
+React lazy和vue路由懒加载比对？
 react性能为什么强于vue？
+双向数据绑定和单向数据流优缺点？
 hooks局限性？
 decorator作用？编译后效果？
+
 移动端拖拽和web段区别？
 for in/ for of区别？
 对象被for of 遍历实现
@@ -113,14 +117,71 @@ for in/ for of区别？
 防抖节流区别和使用场景？
 判断图片进入当前视口？
 ts泛型
-webpack proxy原理？
-loader和plugin区别？
+webpack proxy原理？loader和plugin区别？(系统的描述)分包，动态加载的原理？module federation相关？
+
+import().then之后得到的产物（模块化相关）
+
+远程缓存 和 monorepo 的社区方案
+
+进程、线程间如何通信
+ajax和渲染页面是同一个进程吗？
+
+http请求和tcp对应关系？
+
+js 浮点数运算不精准？
+
+min-width max-width width优先级
+tls/ssl
+
+es
+1）set和map 特点区别
 
 
+['1', '2', '3'].map(parseInt) 返回结果？怎么返回[1,2,3]
+
+接口防刷新实现？
+
+DOS DDOS攻击原理和防范？
+
+JWT实现？
+
+项目私有化定制
 
 vue自定义指令
 docker和k8s了解？
 
+首屏秒开
+
+不同源一定跨域吗？
+
+fetch axios ajax区别？
+
+spa优化
+
+前端埋点
+
+iframe 阻塞主页面load
+
+
+
+协作图元素有哪些？
+display怎么设置为inline
+
+业务描述：工作流程 + 业务流程
+性能指标采集
+native离线化怎么保证资源不丢？过期策略？更新策略？
+做npm 包一般产出什么格式，如何实现？
+shaking原理和过程
+
+useEffect实现原理
+function组件如何保存状态？
+promise异常捕获？
+
+时间监听为什么常放在冒泡阶段而不是捕获阶段
+
+移动端300ms延迟原因？怎么处理？
+
+rem布局怎么实现？
 
 
 # 系统的准备：
