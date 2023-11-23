@@ -30,3 +30,46 @@ errorboundary自己抛出的异常
 服务端渲染
 
 4）函数组件怎么抛出？
+
+react工作过程描述
+
+html调用js，执行react component render
+
+# 初次执行
+1）jsx用ast解析为 React.createElement;
+问：解析用的什么？ReactElement和React.createElement关系？和fiber的关系
+
+2）自顶向下构造节点，节点数据结构包括
+父节点，第一个兄弟节点，第一个子节点
+
+问：
+1.1）构造树的算法是什么？
+1.2）循环构造/循环和递归的过程区别？
+
+3）对于类组件，发生了什么？
+怎么订阅状态更新做rerender？
+
+4）对于函数组件，发生了什么？
+
+5）render和真正的画出dom，区别是什么？
+
+6）组件render顺序？一个组件render结束，父组件得到了什么？
+
+# update
+
+1）state变更，发生什么？
+给组件打上update标志；
+函数组件，遍历effectList，哪些对State有订阅，挨个执行（添加到执行队列），执行render
+
+
+2）props变更，会发生什么？
+
+组件执行生命周期
+
+组件比对，记忆hooks链条
+
+
+组件重新生成fiber树，
+
+update的起点，是发生了状态变更的节点，还是根节点（怎么控制的？）
+生成的fiber树是
